@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diamond {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+}
